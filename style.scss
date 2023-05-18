@@ -1,0 +1,43 @@
+@mixin ring($side, $color, $radius){
+  width: $side;
+  height: $side;
+  background-color: none;
+  border: $side/10 solid $color;
+  border-radius: $radius;
+  box-shadow: $side/20 $side/20 $side/10 darken($color, 10), inset $side/20 $side/20 $side/10 darken($color, 10);
+}
+
+.myPreciousGold {
+  @include ring(150px, rgb(255, 191, 0), 150px);
+}
+
+.myPreciousOrange {
+  @include ring(50px, rgb(255, 131, 0), 50px);
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+h1 {
+    margin: 0 50px;
+}
+
+.relative {
+    position: relative;
+    height: 100px;
+}
+
+$side: 60px;
+$radius: $side;
+@for $i from 1 through 6 {
+  .miniRing-#{$i} {
+    @include ring($side*$i/($i/.5), black, $side*$i/($i/.5));
+    position: absolute;
+    left: ($i*$side/2);
+    vertical-align: middle;
+  }
+}
