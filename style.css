@@ -1,0 +1,105 @@
+.myPreciousGold {
+    width: 150px;
+    height: 150px;
+    background-color: none;
+    border: 15px solid #ffbf00;
+    border-radius: 150px;
+    box-shadow: 7.5px 7.5px 15px #cc9900, inset 7.5px 7.5px 15px #cc9900;
+}
+
+.myPreciousOrange {
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border: 5px solid #ff8300;
+    border-radius: 50px;
+    box-shadow: 2.5px 2.5px 5px #cc6900, inset 2.5px 2.5px 5px #cc6900;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+h1 {
+    margin: 0 50px;
+}
+
+.relative {
+    position: relative;
+    height: 100px;
+}
+
+.miniRing-1 {
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px black, inset 1px 1px 2px black;
+    position: absolute;
+    left: 20px;
+    vertical-align: middle;
+}
+
+.miniRing-2 {
+    width: 26.6666666667px;
+    height: 26.6666666667px;
+    background-color: none;
+    border: 2.6666666667px solid black;
+    border-radius: 26.6666666667px;
+    box-shadow: 1.3333333333px 1.3333333333px 2.6666666667px black, inset 1.3333333333px 1.3333333333px 2.6666666667px black;
+    position: absolute;
+    left: 40px;
+    vertical-align: middle;
+}
+
+.miniRing-3 {
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 1.5px 1.5px 3px black, inset 1.5px 1.5px 3px black;
+    position: absolute;
+    left: 60px;
+    vertical-align: middle;
+}
+
+.miniRing-4 {
+    width: 32px;
+    height: 32px;
+    background-color: none;
+    border: 3.2px solid black;
+    border-radius: 32px;
+    box-shadow: 1.6px 1.6px 3.2px black, inset 1.6px 1.6px 3.2px black;
+    position: absolute;
+    left: 80px;
+    vertical-align: middle;
+}
+
+.miniRing-5 {
+    width: 33.3333333333px;
+    height: 33.3333333333px;
+    background-color: none;
+    border: 3.3333333333px solid black;
+    border-radius: 33.3333333333px;
+    box-shadow: 1.6666666667px 1.6666666667px 3.3333333333px black, inset 1.6666666667px 1.6666666667px 3.3333333333px black;
+    position: absolute;
+    left: 100px;
+    vertical-align: middle;
+}
+
+.miniRing-6 {
+    width: 34.2857142857px;
+    height: 34.2857142857px;
+    background-color: none;
+    border: 3.4285714286px solid black;
+    border-radius: 34.2857142857px;
+    box-shadow: 1.7142857143px 1.7142857143px 3.4285714286px black, inset 1.7142857143px 1.7142857143px 3.4285714286px black;
+    position: absolute;
+    left: 120px;
+    vertical-align: middle;
+}
